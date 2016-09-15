@@ -1,0 +1,2 @@
+# switch-xml-pickup
+Pickup XML datasets with traffic-light orphan routing. XML Pickup is a great configurator but its error handling for orphaned jobs is not ideal. If you have any orphaned jobs, to further process them, you need to route them out of problem jobs (something to be avoided). This script attempts to remain faithful to the XML Pickup configurator while allowing for more graceful orphan/error handling via traffic-lights.
